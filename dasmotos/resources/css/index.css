@@ -1,0 +1,33 @@
+.cost {
+  color: blue;
+  font-weight: bold;
+}
+body {
+  font-family: helvetica;
+}
+h3 {
+  font-weight: bold;
+}
+h2 {
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+}
+.brushes h2 {
+  background-color: mediumspringgreen;
+}
+.frames h2 {
+  background-color: lightcoral;
+}
+.paint h2 {
+  background-color: skyblue;
+}
+
+h1 {
+  font-size: 100px;
+  color: khaki;
+  font-weight: bold;
+  text-align: center;
+  background-image: url("/Users/jonathanbell/Documents/websiteprojects/dasmotos/resources/pattern.jpeg")
+}
+/*ended up having to put the long directory path in the h1 background-image, do you always have to write all of this, i tried to do a ./resources/pattern.jpeg but i realised that this css file is located below the resources folder and the css folder so i guess thats why it didn't work, but could i have done anything here to shorten the path, and type less in future?*/
